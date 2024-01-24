@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thulir Soft</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin-top: 100px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .navbar-brand img {
+            height: 40px;
+            width: auto;
+        }
+
+        .nav-item a:hover {
+            text-decoration: underline;
+        }
+
+        .navbar {
+            background-color: rgb(158, 204, 106);
+        }
+
+        section {
+            margin: 50px;
+            padding-top: 24px;
+            border: 1px solid #ddd;
+        }
+
+        .container-f {
+            background-color: rgb(158, 204, 106);
+        }
+
+        p {
+            font-size: large;
+            padding: 5px;
+        }
+
+        #home-section:target h2#home-heading,
+        #about-section:target h2#about-heading,
+        #services-section:target h2#services-heading,
+        #solutions-section:target h2#solutions-heading,
+        #blogs-section:target h2#blogs-heading,
+        #carrers-section:target h2#carrers-heading,
+        #contact-section:target h2#contact-heading {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top p-3">
+        <div class="container-fluid d-flex ">
+            <!--Logo-->
+            <div class="navbar-brand">
+                <a href="#">
+                    <img src="thulir-logo-1.png" alt="Company Logo">
+                </a>
+            </div>
+            <!--toggler button-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--sidebar-->
+            <div class="offcanvas offcanvas-start" id="offcanvasNavbar">
+                <div class="offcanvas-header">
+                    <div class="offcanvas-title">
+                        <a href="#">
+                            <img src="thulir-logo-1.png" alt="Company Logo">
+                        </a>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <!--sidebar body-->
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home-section">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#about-section">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#services-section">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#solutions-section">Solutions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#blogs-section">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#carrers-section">Carrers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#contact-section">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Home Section-->
+    <section class="container bg-white text-bg-white bg-opacity-25 pb-4 rounded text-lg-center  " id="home-section">
+        <div class="text-center">
+            <h2 id="home-heading">Welcome to Thulir Soft</h2>
+        </div>
+        <hr>
+        <p>At Thulir Software Technologies Private Limited, we're not just a software development company; we're
+            your
+            dedicated partner in turning ideas into cutting-edge digital solutions. With a passion for innovation
+            and a
+            commitment to excellence, we strive to empower your business to thrive in the ever-evolving digital
+            landscape.</p>
+    </section>
+    <!--About Section-->
+    <section class="container bg-info text-bg-info bg-opacity-25 pb-4 rounded text-lg-center" id="about-section">
+        <div class="text-center">
+            <h2 id="about-heading">About</h2>
+        </div>
+        <hr>
+        <p>We are an enterprise web and mobile app development company renowned for customizability and committed to
+            exceptional service. Our digital Marketing and mobile application development services are the best in
+            the industry and we boast a number of fully-customizable software solutions as well. Our additional
+            services like data cleaning, data migration and cloud services are also our strong technical pillars.
+            Popular among both startup and veteran clientele alike, we are renowned for our technically sound team
+            and our professional dealings in business.</p>
+        <p>Our team is composed of both- developers who are veterans in the software battleground and developers who
+            are new and fresh-minded and will sweep you off your feet with novel, trendy ideas. Our products fit
+            seamlessly into our clients' workflows and we offer top-notch services- consulting or technical, and our
+            team provides solid support to ensure your needs are always met. We leverage our strength in support to
+            provide the best possible experience for our clients.</p>
+        <div class="container pt-5">
+            <div class="text-center">
+                <h3>Our strengths</h3>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-4 col-12">
+                    <div class="container bg-white my-3 p-3 rounded">
+                        <h3>Passion</h3>
+                        <p>
+                            What makes us so good and stand out from the rest of the companies in this industry are
+                            our years of experience and expertise. At Thulirsoft, every individual is hired for driving
+                            passion that they possess for their work. Consequently, you get added benefit of new and
+                            fresh ideas with highly skilled approach.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="container bg-white my-3 p-3 rounded">
+                        <h3>Customer Orientation</h3>
+                        <p>
+                            A business is defined by how good its clients think about it. Thulirsoft is no different.It
+                            is because of our dedicated services, that we are at this position and all our customers
+                            appreciate us. we plan each and everything we plan everything from prices to
+                            services, keeping our customers benefit in mind.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="container bg-white my-3 p-3 rounded">
+                        <h3>Transparency</h3>
+                        <p>
+                            We follow a very transparent policy in ThulirSoft with respect to our services, costs and
+                            support. We make sure that we convey everything to our customers We make sure that we convey
+                            everything to our customers and make them well informed about our offerings,practices and
+                            deliverables.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--Services Section-->
+    <section class="container bg-white text-bg-white bg-opacity-25 pb-4 rounded" id="services-section">
+        <div class="text-center">
+            <h2 id="services-heading">Our Services</h2>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row row-cols-lg-2">
+                <div class="col-lg-6 col-12 order-lg-0 order-0 pt-3">
+                    <h3>Web Development</h3>
+                    <p>
+                        At ThulirSoft, we pride ourselves on our ability to deliver top-quality web application
+                        development that
+                        meet the unique needs of our clients. Our experienced team of web developers, designers, and
+                        project
+                        managers work collaboratively to understand your unique business requirements and create a
+                        solution that
+                        meets your needs.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-12 order-lg-1 order-1 pt-3 ">
+                    <img src="webimage.png" class="img-fluid" alt="Web Development Image">
+                </div>
+                <div class="col-lg-6 col-12 order-lg-2 order-3 pt-3">
+                    <img src="mobileimage.png" class="img-fluid" alt="Mobile Development Image">
+                </div>
+                <div class="col-lg-6 col-12 order-lg-3 order-2 pt-3">
+                    <h3>Mobile Development</h3>
+                    <p>
+                        Mobile apps have become an essential part of our lives, enabling us to perform various tasks
+                        with ease.
+                        We offer mobile app development services that help businesses to reach their target audience and
+                        enhance
+                        their user experience. Being a prominent Mobile App development company in Chennai India,
+                        whether you
+                        need a simple app or a complex one with advanced features, we have the expertise and resources
+                        to
+                        deliver as per your requirements.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-12 order-lg-4 order-4 pt-3">
+                    <h3>Digital Marketing</h3>
+                    <p>
+                        Having a robust online presence has become crucial in today's digital era for the success of any
+                        business. We work closely with our clients to understand their business, industry, and target
+                        audience,
+                        and as the best digital marketing company in Chennai, India we help them to stay ahead of the
+                        competition. If you choose our services, you can be confident that you are making the most of
+                        your
+                        online presence and achieving measurable results.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-12 order-lg-5 order-5 pt-3">
+                    <img src="digitalimage.png" class="img-fluid" alt="Digital Marketing">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Solution Section-->
+    <section class="container bg-info text-bg-info bg-opacity-25 pb-4 rounded text-md-center " id="solutions-section">
+        <div class="text-center">
+            <h2 id="solutions-heading">Our Solutions</h2>
+        </div>
+        <hr>
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-4 col-12">
+                    <div class="container bg-white text-bg-white my-3 p-3 rounded">
+                        <h4>1. Exam Management System(EMS)</h4>
+                        <p>An easy-to-handle exam management system(EMS) for educational/training institutions to
+                            smoother your hectic examination process.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="container bg-white text-bg-white my-3 p-3 rounded">
+                        <h4>2. Learning Management System(LMS)</h4>
+                        <p>An easy-to-handle Learning Management System(LMS) for educational/training institutions
+                            to smoother your hectic examination process.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="container bg-white text-bg-white my-3 p-3 rounded">
+                        <h4>3. Class Management System(CMS)</h4>
+                        <p>An easy-to-handle Class Management System(CMS) for educational/training institutions to
+                            smoother your hectic examination process.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Blog Section-->
+    <section class="container bg-white text-bg-white pb-4 rounded text-lg-center" id="blogs-section">
+        <div class="text-center">
+            <h2 id="blogs-heading"> Read Our Blogs</h2>
+        </div>
+        <hr>
+        <div class="container ">
+            <div class="row row-cols-lg-2 ">
+                <div class="col-lg-6 col-12">
+                    <div class="container bg-info text-bg-info bg-opacity-25 p-3 my-3 rounded">
+                        <h4 class="text-center">Blog-1</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quibusdam rerum unde!
+                            Dolorem, quis
+                            suscipit?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores quos ab
+                            ullam! Quia,
+                            reiciendis maiores!</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="container bg-info text-bg-info bg-opacity-25 p-3 my-3 rounded">
+                        <h4 class="text-center">Blog-2</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo provident animi voluptatum
+                            distinctio aperiam itaque omnis sint corrupti porro, magni, maxime voluptate alias!
+                            Porro,
+                            beatae odio vel deleniti voluptatem dolorum!</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="container bg-info text-bg-info bg-opacity-25 p-3 my-3 rounded">
+                        <h4 class="text-center">Blog-3</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quibusdam rerum unde!
+                            Dolorem, quis
+                            suscipit?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores quos ab
+                            ullam! Quia,
+                            reiciendis maiores!</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="container bg-info text-bg-info bg-opacity-25 p-3 my-3 rounded ">
+                        <h4 class="text-center">Blog-4</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo provident animi voluptatum
+                            distinctio aperiam itaque omnis sint corrupti porro, magni, maxime voluptate alias!
+                            Porro,
+                            beatae odio vel deleniti voluptatem dolorum!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact Section-->
+    <section class="container bg-info text-bg-info bg-opacity-25 pb-4 rounded text-lg-center" id="carrers-section">
+        <div class="text-center">
+            <h2 id="carrers-heading">Carrers</h2>
+        </div>
+        <hr>
+        <p>A product-based company, we sail a tight ship here at Thulir enabling our employees to learn in all
+            verticals- in both technical and non-technical aspects. A perfect place for freshers as we expose them
+            to all new, current and trendy technologies extending to what the market wants. We have a small, yet
+            very technically sound team that collaborates and networks both within and outside the company. The
+            flexible hierarchy here allows you to work closely with upper management and directly with the clients.
+            The work satisfaction and balance you will get here are unparalleled. Board our ship now and let us
+            bring out the very best in you!</p>
+    </section>
+    <!--Contact Section-->
+    <section class="container bg-white text-bg-white pb-4 rounded" id="contact-section">
+        <div class="text-center">
+            <h2 id="contact-heading">Contact Us</h2>
+        </div>
+        <hr>
+        <div class="container p-3 m-4">
+            <div class="row row-cols-lg-2">
+                <div class="col-lg-6 col-12 order-lg-0 order-0">
+                    <h4>Chennai</h4>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d124402.51915154203!2d80.20411!3d12.998775000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267e33cd355b5%3A0xe87349071e27ce3b!2sThulir%20Software%20Technologies%20pvt%20Ltd!5e0!3m2!1sen!2sin!4v1705916640839!5m2!1sen!2sin"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-lg-6 col-12 order-lg-1 order-2">
+                    <h4>Trichy</h4>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15678.414524093176!2d78.682871!3d10.765000000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa8bfc9e393585%3A0x197eaa7c509bf74c!2sThulir%20Software%20Technologies%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1705916767584!5m2!1sen!2sin"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-lg-6 col-12 order-lg-2 order-1 pt-3">
+                    <h5>Chennai</h5>
+                    <p>
+                        15/10, Puthupettai St, Alandur,
+                        <br>
+                        Chennai-16. Tamil Nadu
+                        <br>
+                        Landmark : ICICI Bank Alandur / Near Madras Cafe
+                    </p>
+                </div>
+                <div class="col-lg-6 col-12 order-lg-3 order-3 pt-3">
+                    <h5>Trichy</h5>
+                    <p>
+                        6/1, Palandar St, Sundar Nagar,
+                        <br>
+                        K K Nagar, Tiruchirappalli – 620021.
+                        <br>
+                        Landmark : Subramania Murugan Temple
+                    </p>
+                </div>
+                <div class="col-lg-6 col-12 order-lg-4 order-4">
+                    <h5>Phone</h5>
+                    <p>
+                        +91-7894561232
+                        <br>
+                        +91-8956231478
+                    </p>
+                </div>
+                <div class="col-lg-6 col-12 order-lg-5 order-5">
+                    <h5>Email</h5>
+                    <p>
+                        abc@gmail.com
+                        <br>
+                        def@gmail.com
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Footer Section-->
+    <div class="container-fluid container-f p-3 rounded">
+        <div class="footer text-center">
+            <p>&copy; 2024 Thulirsoft. All Rights Reserved.</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
